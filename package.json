@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Hello, World!\\n\"",
     "build:ui": "cd ../frontend/ && npm run build && cp -r dist ../backend/dist",
-	"start": "node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "dotenv": "^17.4.2",
